@@ -7,15 +7,7 @@ import AslForm from "./components/AslForm/AslForm";
 import AllHooksExamples from "./components/AllHooksExamples.jsx";
 //<OnBoardEarlyAccess />
 const App = () => {
-  const [mount, setMount] = useState(false);
-  return (
-    <div>
-      {!mount && <AllHooksExamples />}
-      <button onClick={() => setMount(prev => !prev.mount)}>
-        COMPONENTUNMOUNT
-      </button>
-    </div>
-  );
+  return <div>jagadeesh</div>;
 };
 
 export default App;
